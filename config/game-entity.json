@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "seo-geo.game-entity.v1",
+  "requiredTypes": [
+    "WebSite",
+    "Organization",
+    "VideoGame"
+  ],
+  "website": {
+    "entityId": "https://abysorbitguide.com/#website",
+    "name": "Abys Orbit Guide",
+    "url": "https://abysorbitguide.com/"
+  },
+  "organization": {
+    "entityId": "https://abysorbitguide.com/#organization",
+    "name": "Abys Orbit Guide Editorial Team",
+    "url": "https://abysorbitguide.com/about/",
+    "fictionalExpertPersonasAllowed": false
+  },
+  "game": {
+    "schemaType": "VideoGame",
+    "entityId": "https://abysorbitguide.com/#video-game",
+    "name": "Abys Orbit",
+    "url": "https://store.steampowered.com/app/5007590/Abys_Orbit/",
+    "publisher": "EMG Tech"
+  },
+  "crawlerPolicy": {
+    "Googlebot": "allow",
+    "OAI-SearchBot": "allow",
+    "PerplexityBot": "allow"
+  }
+}

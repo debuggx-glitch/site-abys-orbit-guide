@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "seo-geo.structured-data.v1",
+  "pages": [
+    {
+      "route": "/guides/abys-orbit-beginner-route/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/abys-orbit-factions/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/abys-orbit-ships/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/mission-stuck-troubleshooting/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/auction-and-economy-safety/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/combat-and-survival-basics/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/equipment-upgrade-priority/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/travel-and-navigation/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/clan-system-guide/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/early-credits-and-spending/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/quest-prerequisite-checklist/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/patch-and-retest-log/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://abysorbitguide.com/#video-game",
+      "articleAuthorEntityId": "https://abysorbitguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    }
+  ]
+}

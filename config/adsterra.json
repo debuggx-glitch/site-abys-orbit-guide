@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "adsterra.public-config.v1",
+  "siteId": "site_abys_orbit_progression_guide_001",
+  "domain": "abysorbitguide.com",
+  "placements": {
+    "socialBar": {"placementId":"31070695","format":"social_bar","src":"https://incorporatebreadthave.com/01/97/4a/01974a5c9c6eca4033e3292157621cc3.js"},
+    "homeBannerDesktop": {"placementId":"31070697","format":"banner","src":"https://incorporatebreadthave.com/247ddda3020cd62b9492edeb6fdd1eb4/invoke.js","key":"247ddda3020cd62b9492edeb6fdd1eb4","width":728,"height":90},
+    "homeBannerMobile": {"placementId":"31070696","format":"banner","src":"https://incorporatebreadthave.com/08c2474267affed7cef05e7edc5a4682/invoke.js","key":"08c2474267affed7cef05e7edc5a4682","width":320,"height":50},
+    "guideNative": {"placementId":"31070694","format":"native_banner","src":"https://incorporatebreadthave.com/861c177d616a5b6321ff93b37c00ce06/invoke.js","containerId":"container-861c177d616a5b6321ff93b37c00ce06"}
+  }
+}
