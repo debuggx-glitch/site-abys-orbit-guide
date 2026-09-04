@@ -1,3 +1,12 @@
-import type {Metadata} from "next";import Link from "next/link";import {SocialBar} from "@/components/ad-placements";import {Telemetry} from "@/components/telemetry";import release from "@/config/release.json";import {site} from "@/lib/site";import {SiteStructuredData} from "@/components/structured-data";import "./globals.css";
+import type {Metadata} from "next";
+import Link from "next/link";
+import {SocialBar} from "@/components/ad-placements";
+import {Telemetry} from "@/components/telemetry";
+import release from "@/config/release.json";
+import {site} from "@/lib/site";
+import {SiteStructuredData} from "@/components/structured-data";
+import "./globals.css";
+import "./responsive.css";
+
 export const metadata:Metadata={metadataBase:new URL(site.url),title:{default:site.homeTitle,template:`%s | ${site.name}`},description:site.description,robots:{index:release.allowIndexing,follow:release.allowIndexing},openGraph:{type:"website",siteName:site.name,title:site.homeTitle,description:site.description,images:[site.visual]}};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body className={site.theme}><SiteStructuredData/><header><Link className="brand" href="/"><b>{site.shortName}</b><span>{site.name}</span></Link><nav><Link href="/">Guides</Link><Link href="/about/">Method</Link></nav></header>{children}<footer><p>{site.name} is an independent fan resource and is not affiliated with the game developer or platform.</p><nav><Link href="/about/">About</Link><Link href="/privacy/">Privacy</Link><Link href="/contact/">Contact</Link></nav></footer><Telemetry/><SocialBar/></body></html>}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body className={site.theme}><SiteStructuredData/><header className="orbit-header"><Link className="orbit-brand" href="/"><span>AO</span><b>ABYS / ORBIT</b></Link><nav><Link href="/">Mission DB</Link><Link href="/about/">Protocol</Link></nav><div className="orbit-status"><i/> Uplink stable</div></header>{children}<footer className="orbit-footer"><p><b>ABYS / ORBIT GUIDE</b> · Independent player intelligence. Not affiliated with the developer or platform.</p><nav><Link href="/about/">Protocol</Link><Link href="/privacy/">Privacy</Link><Link href="/contact/">Contact</Link></nav></footer><Telemetry/><SocialBar/></body></html>}

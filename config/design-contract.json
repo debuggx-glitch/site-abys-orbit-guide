@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateFamilyId": "T04-orbital-console",
+  "templateVersion": "1.0.0",
+  "sourceAsset": "/images/official/abys-orbit-guide-official-01.webp",
+  "palette": {"primary":"#070c14","secondary":"#28d8e6","accent":"#f4b546","surface":"#0c1623","text":"#e8f2f5"},
+  "fingerprint": {"navigationModel":"orbital-hud-header","homepageComposition":"cinematic-bridge-plus-telemetry-and-mission-table","articleComposition":"sticky-mission-rail-plus-system-checkpoints","cardSilhouette":"cut-corner-console-panels","contentDensity":"dense-operational","mobileTransformation":"stacked-bridge-and-mission-file","adPlacementPattern":"bridge-break-and-system-checkpoint-break"},
+  "adInventory": [
+    {"slotName":"home_banner_desktop","status":"active","pageTypes":["home"],"position":"after_bridge_before_mission_database","format":"banner","size":"728x90","zoneRef":"homeBannerDesktop","maxPerPage":1,"ga4Placement":"home_banner_desktop"},
+    {"slotName":"home_banner_mobile","status":"active","pageTypes":["home"],"position":"after_bridge_before_mission_database","format":"banner","size":"320x50","zoneRef":"homeBannerMobile","maxPerPage":1,"ga4Placement":"home_banner_mobile"},
+    {"slotName":"guide_native_mid","status":"active","pageTypes":["guide"],"position":"after_system_checkpoint_4","format":"native_banner","size":"responsive","zoneRef":"guideNative","maxPerPage":1,"ga4Placement":"guide_native_mid"},
+    {"slotName":"social_global","status":"active","pageTypes":["all"],"position":"global_after_interactive","format":"social_bar","size":"provider_responsive","zoneRef":"socialBar","maxPerPage":1,"ga4Placement":"social_global"},
+    {"slotName":"guide_telemetry_rail","status":"planned_inactive","pageTypes":["guide"],"position":"desktop_mission_rail_after_status","format":"banner","size":"160x300","zoneRef":null,"maxPerPage":1,"ga4Placement":"guide_telemetry_rail"}
+  ]
+}
